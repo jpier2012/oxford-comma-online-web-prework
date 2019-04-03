@@ -8,3 +8,6 @@ def oxford_comma array
     str = "#{array[0...array.length]*","} and #{array.last}"
   end
 end
+
+test = %w(a b c d e f g)
+oxford_comma test
