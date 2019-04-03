@@ -10,7 +10,7 @@ def oxford_comma array
   end
 end
 
-binding.pry
+#binding.pry
 
 test = %w(a b c d e f g)
 oxford_comma test
