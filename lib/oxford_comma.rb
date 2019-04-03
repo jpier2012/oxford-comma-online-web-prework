@@ -6,7 +6,7 @@ def oxford_comma array
   elsif array.length == 2
     str = array.join(" and ")
   else
-    str = "#{array[0..-1]*", "} and #{array.last}"
+    str = "#{array[0...-1]*", "} and #{array.last}"
   end
 end
 
