@@ -2,7 +2,7 @@ require 'pry'
 
 def oxford_comma array
   if array.length == 1
-    str = array.to_s
+    str = array*""
   elsif array.length == 2
     str = array[0] + " and " + array[1]
   else
