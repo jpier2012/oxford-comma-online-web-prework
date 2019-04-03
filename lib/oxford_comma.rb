@@ -13,4 +13,4 @@ end
 #binding.pry
 
 test = %w(a b c d e f g)
-oxford_comma test
+puts oxford_comma test
