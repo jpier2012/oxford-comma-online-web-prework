@@ -6,7 +6,6 @@ def oxford_comma array
   elsif array.length == 2
     str = array.join(" and ")
   elsif array.length >= 3
-    puts "here"
     str = "#{array[0...array.length]*","} and #{array.last}"
   end
 end
