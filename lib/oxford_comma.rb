@@ -6,7 +6,7 @@ def oxford_comma array
   elsif array.length == 2
     str = array[0] + " and " + array[1]
   elsif array.length >= 3
-    str = "#{array.take(array.length-1)*", "} and #{array.last}"
+    str = "#{array[0...array.length-1]*", "} and #{array.last}"
   end
 end
 
