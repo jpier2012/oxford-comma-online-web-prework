@@ -12,5 +12,5 @@ end
 
 #binding.pry
 
-#test = %w(a b c d e f g)
-#puts oxford_comma test
+test = %w(a)
+puts oxford_comma test
