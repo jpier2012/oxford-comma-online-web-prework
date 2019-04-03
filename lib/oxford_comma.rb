@@ -1,12 +1,11 @@
 require 'pry'
 
 def oxford_comma array
-  case array
-  when array.length == 1
+  if array.length == 1
     str = array.to_s
-  when array.length == 2
+  elsif array.length == 2
     str = array.join(" and ")
-  when array.length >= 3
+  elsif array.length >= 3
     puts "here"
     str = "#{array[0...array.length]*","} and #{array.last}"
   end
