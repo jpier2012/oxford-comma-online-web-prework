@@ -5,7 +5,8 @@ def oxford_comma array
   when array.length == 2
     puts str = array.join(" and ")
   when array.length >= 3
-    puts str = "#{array[0...array.length]*","} and #{array.last}"
+    str = "#{array[0...array.length]*","} and #{array.last}"
+    puts str
   end
 end
 
