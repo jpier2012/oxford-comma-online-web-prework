@@ -1,3 +1,5 @@
+require 'pry'
+
 def oxford_comma array
   case array
   when array.length == 1
